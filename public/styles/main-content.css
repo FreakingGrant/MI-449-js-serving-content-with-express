@@ -1,0 +1,19 @@
+body {
+  width: 75%;
+  margin: auto;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  max-width: 300px;
+}
+
+div.character {
+  display: inline-block;
+  width: 325px;
+  border: 2px solid red;
+  padding: 10px;
+}

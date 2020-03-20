@@ -1,0 +1,8 @@
+{
+  "name": "serving-content-with-express",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,15 @@
+<%- include('../partials/head') %>
+<%- include('../partials/nav') %>
+
+<body>
+  <h1>Marvel Mania!</h1>
+  <p>These are three of my favorite Marvel characters!</p>
+
+  <!-- Display each character's name -->
+  <% Object.keys(characters).forEach(function (id) { %>
+    <div class="character">
+      <p><%= characters[id].title %></p>
+      <p><img src=<%= characters[id].image %>></p>
+    </div>
+  <% }) %>
+</body>
