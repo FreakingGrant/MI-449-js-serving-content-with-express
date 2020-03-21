@@ -37,10 +37,9 @@ function addCharacter (character) {
   addLink(character.title, character.title)
 
   var route = '/' + character.title
-  var renderPage = 'pages/' + character.title
 
   app.get(route, function (request, response) {
-    response.render(renderPage, {
+    response.render('pages/character', {
       character: character,
       links: links
     })
