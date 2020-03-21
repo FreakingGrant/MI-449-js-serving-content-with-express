@@ -19,21 +19,24 @@ var spiderman = {
   title: "Spider-Man",
   image: "/images/spider-man.jpg",
   link: "https://en.wikipedia.org/wiki/Spider-Man_(2002_film)",
-  movieReleaseDate: "2002"
+  movieReleaseDate: "2002",
+  description: "Spider-Man is the best Marvel character ever, it's not even close. Especially the Tobey Maguire version of Spider-Man. He's a goofy guy, but extremely humble and has a genuine interest in helping people. He does everything by himself, with no help from fancy gadgets or friends. He gets beaten down, but always gets back up. Spider-Man is clearly the best!"
 }
 
 var ironMan = {
   title: "Iron Man",
   image: "/images/iron-man.jpg",
   link: "https://en.wikipedia.org/wiki/Iron_Man_(2008_film)",
-  movieReleaseDate: "2008"
+  movieReleaseDate: "2008",
+  description: "Iron Man is up there as one of my favorites because he always seems to know what to do, has incredible brainpower, and underneath the raging narcisism, he wants to help people out. Plus he was the first major super hero in the MCU (not counting Captain America), and his movies kicked off the MCU as we know it."
 }
 
 var antMan = {
   title: "Ant-Man",
   image: "/images/ant-man.jpg",
   link: "https://en.wikipedia.org/wiki/Ant-Man_(film)",
-  movieReleaseDate: "2015"
+  movieReleaseDate: "2015",
+  description: "Ant-Man is just an awesome and friendly guy. He's wicked smart, super goofy, and overall feels relatable. Plus he was pretty instrumental in helping with the time travel part of things in EndGame. He's consistently funny, and can take down some hardcore villans."
 }
 
 // Let's add them to the list of characters
