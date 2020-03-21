@@ -1,7 +1,8 @@
 <%- include('../partials/head') %>
-<%- include('../partials/nav') %>
 
 <body>
+  <%- include('../partials/nav') %> <!-- Render the navigation links -->
+
   <h1>Marvel Mania!</h1>
   <p>These are three of my favorite Marvel characters!</p>
 
@@ -9,7 +10,7 @@
   <% Object.keys(characters).forEach(function (id) { %>
     <div class="character">
       <p><%= characters[id].title %></p>
-      <p><img src=<%= characters[id].image %>></p>
+      <p><img src=<%= characters[id].image %> alt="<%= characters[id].title %>"></p>
     </div>
   <% }) %>
 </body>
